@@ -1,0 +1,21 @@
+.nursery {
+    background-image: url("../../images/IMG_2344.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.nursery-header {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    opacity: 70%;
+}
+
+@media only screen and (max-width: 1366px) {
+    .nursery {
+        background-attachment: scroll;
+    }
+}
