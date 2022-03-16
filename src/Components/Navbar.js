@@ -21,7 +21,7 @@ function Navbar() {
                             className="logo"
                             src={logo}
                             alt="The View logo"
-                            path="/"
+                            path="/The-View-Construction/"
                         />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
