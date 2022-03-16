@@ -13,7 +13,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link
-                        to="/"
+                        to="/The-View-Construction/"
                         className="navbar-logo"
                         onClick={closeMobileMenu}
                     >
