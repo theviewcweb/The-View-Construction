@@ -1,0 +1,47 @@
+.tips {
+    background-image: url("../../images/IMG_1528.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.tips-header {
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+.mid-tips {
+    background-color: #84b686;
+    margin: 50px;
+}
+
+.tips-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    color: #fff;
+}
+
+.tips-p {
+    margin-top: -50px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    float: left;
+}
+
+.image-tips {
+    height: 500px;
+    float: right;
+}
+
+@media only screen and (max-width: 1366px) {
+    .tips {
+        background-attachment: scroll;
+    }
+}

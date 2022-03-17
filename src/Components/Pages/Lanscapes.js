@@ -6,7 +6,7 @@ function Landscapes() {
     return (
         <>
             <div className="landscapes">
-                <h1 className="landscapes-header">Landscapes</h1>
+                <h1 className="landscapes-header">LANDSCAPES</h1>
             </div>
         </>
     );

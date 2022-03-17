@@ -6,7 +6,7 @@ function ContactUs() {
     return (
         <>
             <div className="contact-us">
-                <h1 className="contact-us-header">Contact Us</h1>
+                <h1 className="contact-us-header">CONTACT US</h1>
             </div>
         </>
     );

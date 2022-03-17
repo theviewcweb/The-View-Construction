@@ -1,5 +1,5 @@
 .nursery {
-    background-image: url("../../images/IMG_2344.jpg");
+    background-image: url("../../images/stock_nursery.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,9 +9,7 @@
 
 .nursery-header {
     font-size: 3rem;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    opacity: 70%;
+    margin-top: -1rem;
 }
 
 @media only screen and (max-width: 1366px) {

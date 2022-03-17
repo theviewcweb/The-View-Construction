@@ -6,7 +6,7 @@ function Nursery() {
     return (
         <>
             <div className="nursery">
-                <h1 className="nursery-header">Nursery Coming Soon...</h1>
+                <h1 className="nursery-header">NURSERY COMING SOON...</h1>
             </div>
         </>
     );

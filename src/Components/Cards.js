@@ -12,22 +12,22 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
-                            src={card1}
-                            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
-                            label="Lorem"
-                            path="/"
-                        />
-                        <CardItem
                             src={card2}
                             text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
-                            label="Lorem"
-                            path="/"
+                            label="Pools"
+                            path="/pools"
+                        />
+                        <CardItem
+                            src={card1}
+                            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
+                            label="Landscapes"
+                            path="/landscapes"
                         />
                         <CardItem
                             src={card3}
                             text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
-                            label="Lorem"
-                            path="/"
+                            label="Tips"
+                            path="/tips"
                         />
                     </ul>
                 </div>

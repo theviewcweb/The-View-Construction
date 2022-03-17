@@ -6,8 +6,7 @@ import Footer from "./Components/Footer";
 import Home from "./Components/Pages/Home";
 import Pools from "./Components/Pages/Pools";
 import Landscapes from "./Components/Pages/Lanscapes";
-import Maintenance from "./Components/Pages/Maintenance";
-import OurTips from "./Components/Pages/OurTips";
+import Tips from "./Components/Pages/Tips";
 import ContactUs from "./Components/Pages/ContactUs";
 import Nursery from "./Components/Pages/Nursery";
 
@@ -20,8 +19,7 @@ function App() {
                     <Route path="/The-View-Construction/" element={<Home />} />
                     <Route path="/pools" element={<Pools />} />
                     <Route path="/landscapes" element={<Landscapes />} />
-                    <Route path="/maintenance" element={<Maintenance />} />
-                    <Route path="/our-tips" element={<OurTips />} />
+                    <Route path="/tips" element={<Tips />} />
                     <Route path="/contact-us" element={<ContactUs />} />
                     <Route path="/nursery" element={<Nursery />} />
                 </Routes>

@@ -57,20 +57,11 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link
-                                to="/maintenance"
+                                to="/tips"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >
-                                Maintenance
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/our-tips"
-                                className="nav-links"
-                                onClick={closeMobileMenu}
-                            >
-                                Our Tips
+                                Tips
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -80,15 +71,6 @@ function Navbar() {
                                 onClick={closeMobileMenu}
                             >
                                 Contact Us
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                to="/search"
-                                className="nav-links"
-                                onClick={closeMobileMenu}
-                            >
-                                <i className="fas fa-search"></i>
                             </Link>
                         </li>
                     </ul>

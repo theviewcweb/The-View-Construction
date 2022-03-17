@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Cards from "../Cards";
 import HeroSection from "../HeroSection";
-import pool from "../../images/IMG_1702.jpg";
+import pool from "../../images/stock_pool.jpg";
 import "./Home.css";
 
 function Home() {
