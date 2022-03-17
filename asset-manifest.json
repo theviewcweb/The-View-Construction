@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/The-View-Construction/static/css/main.71beae1b.css",
-    "main.js": "/The-View-Construction/static/js/main.bcad427a.js",
+    "main.css": "/The-View-Construction/static/css/main.73814e2a.css",
+    "main.js": "/The-View-Construction/static/js/main.3321a99a.js",
     "static/media/IMG_3309.jpg": "/The-View-Construction/static/media/IMG_3309.5b23527403416c4c4947.jpg",
+    "static/media/stock_pool.jpg": "/The-View-Construction/static/media/stock_pool.1c3e6a51952bf0d6f699.jpg",
     "static/media/Coverpic.jpg": "/The-View-Construction/static/media/Coverpic.128764e11c9aaa2be967.jpg",
+    "static/media/stock_nursery.jpg": "/The-View-Construction/static/media/stock_nursery.6300498345f5af3dc9b2.jpg",
     "static/media/IMG_1075.jpg": "/The-View-Construction/static/media/IMG_1075.17df7704b0d1184f79f8.jpg",
     "static/media/IMG_0670.jpg": "/The-View-Construction/static/media/IMG_0670.798acc8efd5ed92de8d6.jpg",
     "static/media/IMG_0667.jpg": "/The-View-Construction/static/media/IMG_0667.e627da96d998e54802f2.jpg",
-    "static/media/IMG_1702.jpg": "/The-View-Construction/static/media/IMG_1702.1466bee072f24c3c6610.jpg",
-    "static/media/IMG_0672.jpg": "/The-View-Construction/static/media/IMG_0672.ac766168f15599715524.jpg",
+    "static/media/IMG_1528.jpg": "/The-View-Construction/static/media/IMG_1528.3d01a2b7a42d81611d1f.jpg",
     "static/media/IMG_1527.jpg": "/The-View-Construction/static/media/IMG_1527.b384ce7967ca71ef0719.jpg",
-    "static/media/IMG_2344.jpg": "/The-View-Construction/static/media/IMG_2344.6ccd2ef0fb04d820d36c.jpg",
     "static/media/logo.png": "/The-View-Construction/static/media/logo.b5117858cdc9e2005de5.png",
     "index.html": "/The-View-Construction/index.html",
-    "main.71beae1b.css.map": "/The-View-Construction/static/css/main.71beae1b.css.map",
-    "main.bcad427a.js.map": "/The-View-Construction/static/js/main.bcad427a.js.map"
+    "main.73814e2a.css.map": "/The-View-Construction/static/css/main.73814e2a.css.map",
+    "main.3321a99a.js.map": "/The-View-Construction/static/js/main.3321a99a.js.map"
   },
   "entrypoints": [
-    "static/css/main.71beae1b.css",
-    "static/js/main.bcad427a.js"
+    "static/css/main.73814e2a.css",
+    "static/js/main.3321a99a.js"
   ]
 }
