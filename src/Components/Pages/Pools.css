@@ -41,3 +41,27 @@
         background-attachment: scroll;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .pools-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        padding: 10px;
+    }
+
+    .mid-pools h1 {
+        margin-top: 60px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -20px;
+        font-size: 20px;
+    }
+    .mid-pools p {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: 20px;
+    }
+}

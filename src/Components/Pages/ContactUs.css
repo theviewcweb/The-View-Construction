@@ -21,4 +21,27 @@
 .contact-content {
     flex-direction: column;
     margin: 100px 50px 0px 50px;
+    max-width: 500px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-us {
+        flex-flow: column;
+    }
+    .contact-us-header {
+        font-size: 0rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+
+    .contact-content {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .contact-wrapper {
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+    }
 }
