@@ -1,20 +1,61 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import top from "./top";
 
 function Footer() {
     return (
         <div className="footer-container">
-            <section className="footer-subscription">
-                <p className="footer-subscription-heading">
-                    Connect With Us To See How We Can Help You
-                </p>
-                <p className="footer-subscription-text">Phone: 281-541-6706</p>
-            </section>
+            <div className="footer-links">
+                <div className="footer-link-wrapper">
+                    <div className="footer-link-items">
+                        <h2>About</h2>
+                        <p className="footer-about">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Corrupti maxime, aut nobis quos accusantium
+                            amet quia corporis dolorem eaque cumque inventore
+                            perspiciatis!
+                        </p>
+                    </div>
+                    <div className="footer-link-items">
+                        <h2>Contact</h2>
+                        <p className="contact">
+                            281-541-6706
+                            <br />
+                            theviewc@gmail.com
+                            <br />
+                            15824 Grant Rd,
+                            <br />
+                            Cypress, TX 77429
+                        </p>
+                    </div>
+                    <div className="footer-link-items">
+                        <h2>Explore</h2>
+                        <Link to="/pools" onClick={top}>
+                            Pools
+                        </Link>
+                        <Link to="/landscapes" onClick={top}>
+                            Lanscapes
+                        </Link>
+                        <Link to="/nursery" onClick={top}>
+                            Nursery
+                        </Link>
+                        <Link to="/tips" onClick={top}>
+                            Tips
+                        </Link>
+                        <Link to="/contact-us" onClick={top}>
+                            Contact Us
+                        </Link>
+                    </div>
+                </div>
+            </div>
             <section className="social-media">
                 <div className="social-media-wrapper">
                     <div className="footer-logo">
-                        <Link to="/" className="social-logo">
+                        <Link
+                            to="/The-View-Construction"
+                            className="social-logo"
+                        >
                             The View Construction
                         </Link>
                     </div>

@@ -19,10 +19,16 @@ html body {
 
 .pools,
 .landscapes,
-.nursery,
 .maintenance,
-.tips,
-.contact-us {
+.tips {
+    display: flex;
+    height: 80vh;
+    align-items: left;
+    justify-content: left;
+    font-size: 3rem;
+}
+
+.nursery {
     display: flex;
     height: 80vh;
     align-items: center;

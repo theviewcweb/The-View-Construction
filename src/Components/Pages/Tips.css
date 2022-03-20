@@ -1,5 +1,5 @@
 .tips {
-    background-image: url("../../images/IMG_1528.jpg");
+    background-image: url("../../images/IMG_0670.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,8 @@
 
 .tips-header {
     font-size: 3rem;
-    margin-top: -1rem;
+    margin-top: 475px;
+    margin-left: 50px;
 }
 
 .mid-tips {

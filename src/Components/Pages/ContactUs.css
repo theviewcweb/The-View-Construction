@@ -1,19 +1,24 @@
 .contact-us {
-    background-image: url("../../images/IMG_1527.jpg");
+    background-image: url("../../images/logo2.png");
+    background-color: #dfedd3;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #fff;
+    color: #000;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: initial;
 }
 
 .contact-us-header {
-    font-size: 3rem;
-    margin-top: -1rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
-@media only screen and (max-width: 1366px) {
-    .contact-us {
-        background-attachment: scroll;
-    }
+.contact-content {
+    flex-direction: column;
+    margin: 100px 50px 0px 50px;
 }

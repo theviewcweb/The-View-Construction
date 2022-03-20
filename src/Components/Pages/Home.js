@@ -4,6 +4,7 @@ import Cards from "../Cards";
 import HeroSection from "../HeroSection";
 import pool from "../../images/stock_pool.jpg";
 import "./Home.css";
+import Testimonials from "../Testimonials";
 
 function Home() {
     return (
@@ -14,8 +15,10 @@ function Home() {
                 <div className="mid-home">
                     <div className="home-content">
                         <div className="home-me-p">
-                            <h1>HERE ARE SOME THINGS ABOUT US!</h1>
-                            <p>
+                            <h1 className="home-about-header">
+                                WHAT WE'RE ABOUT!
+                            </h1>
+                            <p className="home-about-p">
                                 Lorem ipsum dolor sit, amet consectetur
                                 adipisicing elit. Officia rerum sunt dolor fugit
                                 vero eos eveniet beatae maxime esse nisi sed
@@ -27,9 +30,10 @@ function Home() {
                                 dolorem, vitae repudiandae nesciunt!
                             </p>
                         </div>
-                        <img className="image-home" src={pool} alt="Man" />
+                        <img className="image-home" src={pool} alt="Pool" />
                     </div>
                 </div>
+                <Testimonials />
             </div>
         </>
     );

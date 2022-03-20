@@ -1,37 +1,32 @@
 import React from "react";
-import CardItem from "./CardItem";
+import top from "./top";
+import { Link } from "react-router-dom";
 import "./Cards.css";
-import card1 from "../images/IMG_0667.jpg";
-import card2 from "../images/IMG_0670.jpg";
-import card3 from "../images/IMG_3309.jpg";
 
 function Cards() {
     return (
-        <div className="cards">
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards__items">
-                        <CardItem
-                            src={card2}
-                            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
-                            label="Pools"
-                            path="/pools"
-                        />
-                        <CardItem
-                            src={card1}
-                            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
-                            label="Landscapes"
-                            path="/landscapes"
-                        />
-                        <CardItem
-                            src={card3}
-                            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, possimus."
-                            label="Tips"
-                            path="/tips"
-                        />
-                    </ul>
+        <div class="container">
+            <Link to="/pools" onClick={top}>
+                <div class="card card0">
+                    <div class="border">
+                        <h2 className="card0-h2">Pools</h2>
+                    </div>
                 </div>
-            </div>
+            </Link>
+            <Link to="/landscapes" onClick={top}>
+                <div class="card card1">
+                    <div class="border">
+                        <h2>Landscapes</h2>
+                    </div>
+                </div>
+            </Link>
+            <Link to="/tips" onClick={top}>
+                <div class="card card2">
+                    <div class="border">
+                        <h2>Tips</h2>
+                    </div>
+                </div>
+            </Link>
         </div>
     );
 }
