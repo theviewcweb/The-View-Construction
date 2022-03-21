@@ -11,7 +11,7 @@ function Landscapes() {
             <div className="mid-landscapes">
                 <div className="landscapes-content">
                     <div className="landscapes-p">
-                        <h1>Landscape</h1>
+                        <h1>Landscapes</h1>
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Officia rerum sunt dolor fugit vero eos

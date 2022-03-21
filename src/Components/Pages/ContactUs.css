@@ -19,10 +19,13 @@
 }
 
 .contact-content {
-    flex-direction: column;
     margin: 100px 50px 0px 50px;
     max-width: 500px;
     width: 100%;
+}
+
+.contact-wrapper {
+    display: flex;
 }
 
 @media only screen and (max-width: 800px) {
@@ -40,8 +43,11 @@
     }
 
     .contact-wrapper {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left: 50px;
+        display: inline-block;
+        margin-top: 50px;
     }
 }
